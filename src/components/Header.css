@@ -1,0 +1,100 @@
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-logo img {
+  width: 20px;
+  height: 20px;
+}
+
+.header-input {
+  border-radius: 4px;
+  padding: 10px 213px 10px 10px;
+  background-color: #dae1ec;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  color: #2e3b52;
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 11px 10px 12px;
+  gap: 10px;
+  background-color: #0a65ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  color: #ffffff;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.header-main {
+  margin-top: 20px;
+}
+
+.header-main__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-main-desc,
+.header-main-rate,
+.header-main-balance,
+.header-main-deposit {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.52px;
+  color: #606f89;
+  text-transform: uppercase;
+}
+
+.header-main-desc {
+  letter-spacing: 0.05em;
+}
+
+.header-main-rate {
+  text-align: right;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.header-main-vector {
+  font-size: 20px;
+  width: 20px;
+  color: #606f89;
+}
